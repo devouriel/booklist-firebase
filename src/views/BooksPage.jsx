@@ -10,7 +10,7 @@ function BooksPage() {
   const dispatch = useDispatch();
   const books = useSelector(selectBooks).books;
 
-  const pageTitle = "📖 Book List with Router, Redux & Firebase";
+  const pageTitle = "📖 Test Deploy with Github";
 
   const bookStatus = useSelector(selectBooks).status;
 
